@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*body {
+    margin: 0;
+    padding: 0;
+}
+
+/*button radius 0*/
+
+.texturnia-font {
+    font-family: 'Texturina', serif;
+}
+
+.dongle-font {
+    font-family: 'Dongle', sans-serif;
+}
+
+.share-mono-font {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.roboto-font {
+    font-family: "Roboto Condensed", "Noto Sans", "Noto Sans KR", "Noto Sans TC", "Noto Sans SC", "Noto Sans JP", "Noto Sans Thai", "Noto Sans Arabic", -apple-system, "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+li:hover .hover-dropdown-item {
+    transform: scale(1.08);
+}
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+.important-hover :hover {
+    background-color: rgb(218, 185, 3) !important;
+}
+
+.important-hover-txt-black :hover {
+    color: black !important;
+    background-color: rgb(218, 185, 3) !important;
+}
+
+.black-scratch-texture-bg {
+    background-image: url('white-texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 515px;
+    clip-path: polygon(0% 25%, 38% 0%, 100% 0%, 100% 64%, 90% 99%, 0% 99%, 0% 39%, 0% 37%, 0% 37%);
+}
+
+.black-texture-container {
+    position: absolute;
+    top: 45rem;
+    right: 22.75rem;
+    z-index: 2;
+}
+
+.black-texture {
+    background-image: url('black-texture.png');
+    background-repeat: no-repeat;
+    height: 503px;
+}
+
+.iframe-container {
+    position: relative;
+    top: -24.1em;
+    right: -24rem;
+    z-index: 2;
+}
+
+/*Language and world icon position*/
+.language-icon-position{
+    position: relative;
+    right: 80px;
+}
+
+/*Pubg text color height*/
+
+.color-height{
+    color:  rgb(218, 185, 3);
+    font-family: 'Share Tech Mono', monospace;
+}

@@ -1,0 +1,24 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-style {
+    color: rgb(187, 187, 187);
+    font-family: "Roboto Condensed", "Noto Sans", "Noto Sans KR", "Noto Sans TC", "Noto Sans SC", "Noto Sans JP", "Noto Sans Thai", "Noto Sans Arabic", -apple-system, "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.display-grid {
+    width: 80vw;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.article-main {
+    font-family: "Roboto Condensed", "Noto Sans", "Noto Sans KR", "Noto Sans TC", "Noto Sans SC", "Noto Sans JP", "Noto Sans Thai", "Noto Sans Arabic", -apple-system, "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
